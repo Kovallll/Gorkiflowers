@@ -1,0 +1,55 @@
+.main {
+  display: flex;
+	justify-content: center;
+	max-width: 1600px;
+	width: 100%;
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
+}
+@media (min-width: 992px) {
+	.container {
+		width: 970px;
+	}
+}
+@media (min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	max-height: 100px;
+	height: 100%;
+	
+  &__logo {
+	
+	}
+	&__img {
+		max-width: 100px;
+		width: 100%;
+		max-height: 100px;
+		height: 100%;
+		border-radius: 60px;
+  }
+
+  &__navbar {
+
+  }
+
+  &__items {
+		display: flex;
+		flex-direction: row;
+		list-style: none;
+  }
+
+  &__item {
+		display: flex;
+		justify-content: space-between;
+  }
+}
